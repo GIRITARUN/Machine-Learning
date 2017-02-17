@@ -19,7 +19,7 @@ class Node:
         self.children = []
         self.parent = None
 
-with open("data/topic-0.txt") as dFile:
+with open("topic-0.txt") as dFile:
     data = dFile.read().splitlines()
 with open("vocab.txt") as dFile:
         vocab = dFile.read().splitlines()
