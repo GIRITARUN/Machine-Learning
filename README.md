@@ -20,8 +20,15 @@ vocab.txt
 	format: term_index    term
 	Columns are separated by Tab
 
+pattern0:
+ All the frequent patterns for topic0
+ 
+Max 0:
+ All the max patterns of topic 0
 
+Closed patterns:
+All the closed patterns of topic 0
 =======
 Additional files: These files are for your understanding of how we generate topic-i.txt files.
-	paper_raw.txt: raw data of paper titles
-	paper.txt    : paper titles after removing stop words, changing to lower case and lemmatization
+paper_raw.txt: raw data of paper titles
+paper.txt    : paper titles after removing stop words, changing to lower case and lemmatization
