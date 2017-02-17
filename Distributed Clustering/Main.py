@@ -24,7 +24,7 @@ G=Generate_graph.graph(G_type,n_nodes)
 
 Y=[];X=[];dataF = []
 #reading data
-with open('C:/Users/tgiri2/Desktop/IE511/letter-recognition.txt', 'r') as data1:
+with open('letter-recognition.txt', 'r') as data1:
     for line in data1:
         line = line.strip().split(',')
         dataF.append([int(x) for x in line[1:]])
